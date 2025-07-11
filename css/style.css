@@ -660,6 +660,7 @@ h3{
 }
 
 
+
 /* === Experience Section === */
 
 /*---------------------------------------------------------
@@ -790,7 +791,9 @@ Experience Timeline
     margin-bottom: 20px;
 }
 
-
+.Experience-section{
+    background: url(../images/img2.png)no-repeat left center/20%;
+}
 
 
 
@@ -935,11 +938,9 @@ Experience Timeline
     .timeline>li .posted-date .month {
         float: none;
     }
-    
-    .Experience-section{
-    background: url(../images/img2.png)no-repeat left center/20%;
-}
 
+
+}
 
 
 
@@ -1090,9 +1091,11 @@ Experience Timeline
 }
 
 .contact li{
+    width: 50%;
     display: flex;
     align-items: center;
     gap: 20px;
+    padding-bottom: 30px;
 }
 
 .contact p{
