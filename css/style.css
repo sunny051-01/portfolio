@@ -1087,7 +1087,6 @@ Experience Timeline
 .contact{
     display: flex;
     justify-content: space-around;
-    padding-bottom: 50px;
 }
 
 .contact li{
@@ -1095,7 +1094,6 @@ Experience Timeline
     display: flex;
     align-items: center;
     gap: 20px;
-    padding-bottom: 30px;
 }
 
 .contact p{
@@ -1105,11 +1103,7 @@ Experience Timeline
 }
 
 .contact-icon{
-    padding-bottom: 20px;
-}
-
-.contact-icon{
-    width: 80px;
+    width: 60px;
 }
 
 
