@@ -935,14 +935,17 @@ Experience Timeline
     .timeline>li .posted-date .month {
         float: none;
     }
-
-
+    
+    .Experience-section{
+    background: url(../images/img2.png)no-repeat left center/20%;
 }
+
 
 
 
 /* === Skill Section === */
 .skills-section {
+    background: url(../images/img3.png)no-repeat right -5%/12%;
     background-color: #e9f9ef;
     color: #222;
 }
