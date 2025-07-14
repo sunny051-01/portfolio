@@ -602,20 +602,6 @@ Icon for all respective meta
     overflow: hidden;
 }
 
-.tt-overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-}
-
-.tt-overlay {
-    -webkit-transition: all 400ms;
-    -moz-transition: all 400ms;
-    -o-transition: all 400ms;
-    transition: all 400ms;
-}
-
 .portfolio:hover .tt-overlay,
 .portfolio:hover .links {
     opacity: 1;
