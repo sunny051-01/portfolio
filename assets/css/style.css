@@ -596,9 +596,6 @@ Icon for all respective meta
     padding: 5px;
 }
 
-.portfolio-info h3{
-    color: #fff;
-}
 
 .portfolio {
     position: relative;
@@ -607,30 +604,16 @@ Icon for all respective meta
 
 .tt-overlay {
     position: absolute;
-    background-color: rgba(30, 31, 26, 0.85);
     width: 100%;
     height: 100%;
     opacity: 0;
 }
-
-.portfolio-info,
 
 .tt-overlay {
     -webkit-transition: all 400ms;
     -moz-transition: all 400ms;
     -o-transition: all 400ms;
     transition: all 400ms;
-}
-
-
-.portfolio-info {
-    position: absolute;
-    bottom: -100%;
-    left: 0;
-    color: #fff;
-    height: 45px;
-    width: 100%;
-    text-align: center;
 }
 
 .portfolio:hover .tt-overlay,
@@ -641,18 +624,6 @@ Icon for all respective meta
     -ms-transform: translate(0, 0);
     -o-transform: translate(0, 0);
     transform: translate(0, 0);
-}
-
-.portfolio:hover .portfolio-info {
-    top: 50%;
-    margin-top: -9px;
-}
-
-.portfolio-info h3 {
-    font-size: 14px;
-    line-height: 45px;
-    font-weight: 700;
-    margin: 0;
 }
 
 h3{
