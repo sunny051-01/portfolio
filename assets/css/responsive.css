@@ -1,12 +1,11 @@
-/* Extra small devices (phones, less than 339px) */
-@media (max-width : 339px) {
-	.m-skill {
-		margin-bottom: 60px;
-	}
-}
-
 /* Extra small devices (phones, less than 768px) */
-@media (max-width : 766px) {
+@media (max-width : 767px) {
+	.flex{
+		display: block;
+	}
+	.contact li{
+		width: 100%;
+	}
 	.intro h1 {
 		font-size: 40px;
 		line-height: 40px;
@@ -178,6 +177,13 @@
 		margin-right: 0;
 	}
 }
+/* Extra small devices (phones, less than 339px) */
+@media (max-width : 339px) {
+	.m-skill {
+		margin-bottom: 60px;
+	}
+}
+
 
 /* Landscape Mobile */
 @media only screen and (min-width : 480px) and (max-width : 767px) {
@@ -414,6 +420,14 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width : 992px) and (max-width : 1199px) {
+	.info {
+        padding-top: 77px;
+        flex-direction: column;
+        display: block;
+        align-items: end;
+        background-size: 15%;
+    }
+
 	.portfolio-item {
 		min-height: 150px;
 	}
