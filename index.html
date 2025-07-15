@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ko">
 
 <head>
@@ -31,7 +31,7 @@
 <body>
 
   <!-- Home Section -->
-  <section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+  <section id="home" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
     <div class="intro">
       <video class="pc" src="./assets/video/intro.mp4" autoplay muted></video>
       <video class="mobile" src="./assets/video/intro_mobile.mp4" autoplay muted></video>
@@ -48,6 +48,15 @@
     <nav class="navbar navbar-custom">
       <!-- role="navigation" -->
       <div class="container flex">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
         <div class="collapse navbar-collapse" id="custom-collapse">
           <ul class="nav navbar-nav">
             <li><a href="#home">Home</a></li>
@@ -87,11 +96,9 @@
             <p>작은 프로젝트라도 사용자에게 '기억에 남는 경험'을 줄 수 있도록 애정과 정성을 담아 작업합니다. 마음을 연결하는 디자인, 신뢰를 주는 태도로 함께 성장해 나가고 싶습니다.</p>
           </div>
         </div>
-
       </div> <!-- /.row -->
     </div> <!-- /.container -->
   </section> <!-- End About Section -->
-
 
   <!-- Portfolio Section -->
   <section id="portfolio" class="latest-blog-section section-padding">
@@ -123,20 +130,15 @@
             <div class="entry-title col-md-12">
 
               <div class="button">
-                
                 <a href="./assets/guide/promotion.html" target="_blank" id="promotion-btn">Promotion Page</a>
 
               </div>
               <p>디스플레이 광고와 프로모션 페이지를 제작했습니다.</p>
-              
+
             </div>
           </article>
         </div>
       </div><!-- /.row -->
-
-
-
-
     </div><!-- /.container -->
   </section><!-- End Portfolio Section -->
 
@@ -151,39 +153,39 @@
         <div class="snsbox">
           <div class="portfolio-item wow fadeInUp col-xs-12 col-sm-4">
 
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <img src="assets/images/sns_01.png" alt="image">
+            <div class="portfolio-bg">
+              <div class="portfolio">
+                <div class="tt-overlay"></div>
+                <img src="assets/images/sns_01.png" alt="image">
 
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg -->
+              </div><!-- /.portfolio -->
+            </div><!-- /.portfolio-bg -->
           </div><!-- /.portfolio-item -->
 
           <div class="portfolio-item wow fadeInUp col-xs-12 col-sm-4">
 
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <img src="assets/images/sns_02.png" alt="image">
-                  <div class="portfolio-info">
+            <div class="portfolio-bg">
+              <div class="portfolio">
+                <img src="assets/images/sns_02.png" alt="image">
+                <div class="portfolio-info">
 
-                  </div><!-- /.portfolio-info -->
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg -->
+                </div><!-- /.portfolio-info -->
+              </div><!-- /.portfolio -->
+            </div><!-- /.portfolio-bg -->
 
           </div><!-- /.portfolio-item -->
 
 
           <div class="portfolio-item wow fadeInUp col-xs-12 col-sm-4">
 
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <img src="assets/images/sns_03.png" alt="image">
-                  <div class="portfolio-info">
-                    <h3>Artwork Title</h3>
-                  </div><!-- /.portfolio-info -->
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg -->
+            <div class="portfolio-bg">
+              <div class="portfolio">
+                <img src="assets/images/sns_03.png" alt="image">
+                <div class="portfolio-info">
+                  <h3>Artwork Title</h3>
+                </div><!-- /.portfolio-info -->
+              </div><!-- /.portfolio -->
+            </div><!-- /.portfolio-bg -->
 
           </div><!-- /.portfolio-item -->
         </div><!-- /#grid -->
@@ -285,7 +287,7 @@
           </div> <!-- Experience -->
         </div> <!-- col-md-12 -->
 
-      </div>  <!-- row -->
+      </div> <!-- row -->
     </div> <!-- container -->
 
   </section> <!-- End Experience Section -->
@@ -419,11 +421,13 @@
       <ul class="contact">
         <li>
           <img class="contact-icon" src="./assets/images/phone.png" alt="전화">
-          <p class="wow flipInX">NUMBER : 010-9893-1074</p>
+          <p class="contact-pc wow flipInX">NUMBER : 010-9893-1074</p>
+          <p class="contact-mobile wow flipInX">010-9893-1074</p>
         </li>
         <li>
           <img class="contact-icon" src="./assets/images/mail.png" alt="이메일">
-          <p class="wow flipInX">E-MAIL : jjsa0068@naver.com</p>
+          <p class="contact-pc wow flipInX">E-MAIL : jjsa0068@naver.com</p>
+          <p class="contact-mobile wow flipInX">jjsa0068@naver.com</p>
         </li>
       </ul>
     </div>
