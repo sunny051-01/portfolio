@@ -115,7 +115,7 @@ h2 {
 
 h3 {
     font-size: 24px;
-    line-height: 24px;
+    line-height: 1.5;
 }
 
 h4 {
@@ -246,6 +246,7 @@ ul.list-check li::before {
 
 .pc {
     display: block;
+    width: 100%;
 }
 
 @media (max-width : 640px) {
@@ -452,22 +453,14 @@ SOCIAL ICON
 
 /* === About Section === */
 .info {
-    padding-top: 164px;
+    padding-top: 152px;
     flex-direction: column;
     display: flex;
     align-items: end;
     background: url(../images/img1.png)no-repeat right top/20%;
     }
 
-@media(max-width:1199px) {
-    .info {
-        padding-top: 88px;
-        flex-direction: column;
-        display: block;
-        align-items: end;
-        background-size: 15%;
-    }
-}
+
 
 .short-info {
     box-sizing: border-box;
@@ -1094,6 +1087,28 @@ Experience Timeline
 .contact {
     display: flex;
     justify-content: space-around;
+}
+
+.contact-mobile{
+    display: none;
+}
+
+@media (max-width:720px) {
+.contact-mobile{
+    display: block;
+}
+
+.contact-pc{
+    display: none;
+}
+
+    .contact{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contact li {
+    width: 100%;
+    }
 }
 
 .contact li {
