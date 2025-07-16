@@ -214,7 +214,7 @@ ul.list-check li::before {
 /* SECTION TITLE
 ----------------------------------------------------- */
 .section-title {
-    background: url(../assets/images/favicon.png)no-repeat left 45%;
+    background: url(../images/favicon.png)no-repeat left 45%;
     margin-bottom: 50px;
     font-size: 32px;
     line-height: 50px;
