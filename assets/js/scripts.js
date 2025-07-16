@@ -206,6 +206,11 @@ jQuery(function ($) {
 		$('#popup02').click(function(){
 			$('#pop02').show();
 		});
+	    
+       		$('#popup03').click(function(){
+			$('#pop03').show();
+		});
+
 
 		$('.popup i').click(function(){
 			$('.popup').hide();
