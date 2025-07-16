@@ -15,13 +15,16 @@
   <!-- Web Fonts -->
   <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUITE@2/fonts/static/woff2/SUITE.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/font.css">
+
   <!-- Bootstrap core CSS -->
   <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <!-- Font Awesome CSS -->
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
   <!-- Animate css -->
   <link href="./assets/css/animate.css" rel="stylesheet">
   <!-- Custom styles CSS -->
   <link href="./assets/css/style.css" rel="stylesheet" media="screen">
-  <link rel="stylesheet" href="./assets/css/font.css">
   <!-- Responsive CSS -->
   <link href="./assets/css/responsive.css" rel="stylesheet">
 
@@ -108,8 +111,10 @@
       <div class="row">
         <div class="col-md-12">
           <article class="blog-post-wrapper">
-            <img src="./assets/images/01.png" class="img-responsive col-md-12" alt="이미지">
-            <div class="entry-title col-md-12">
+            <div class="img-responsive col-md-12">
+            <img src="./assets/images/01.jpg" alt="이미지">
+           </div> 
+           <div class="entry-title col-md-12">
 
               <div class="button">
                 <a href="https://sunny051-01.github.io/UMFU/" target="_blank">Homepage</a>
@@ -126,9 +131,10 @@
             </div>
           </article>
           <article class="blog-post-wrapper">
-            <img src="./assets/images/02.png" class="img-responsive col-md-12" alt="이미지">
+            <div class="img-responsive col-md-12">
+            <img src="./assets/images/02.jpg" alt="이미지">
+           </div> 
             <div class="entry-title col-md-12">
-
               <div class="button">
                 <a href="./assets/guide/promotion.html" target="_blank" id="promotion-btn">Promotion Page</a>
 
@@ -152,40 +158,46 @@
         <h3>SNS</h3>
         <div class="snsbox">
           <div class="portfolio-item wow fadeInUp col-xs-12 col-sm-4">
+            <a href="#none" id="popup01">
 
             <div class="portfolio-bg">
               <div class="portfolio">
                 <div class="tt-overlay"></div>
-                <img src="assets/images/sns_01.png" alt="image">
+                <img src="assets/images/sns_01.jpg" alt="image">
 
               </div><!-- /.portfolio -->
             </div><!-- /.portfolio-bg -->
+            </a>
+
           </div><!-- /.portfolio-item -->
 
           <div class="portfolio-item wow fadeInUp col-xs-12 col-sm-4">
-
+            <a href="#none" id="popup02">
             <div class="portfolio-bg">
               <div class="portfolio">
-                <img src="assets/images/sns_02.png" alt="image">
+                <div class="tt-overlay"></div>
+                <img src="assets/images/sns_02.jpg" alt="image">
                 <div class="portfolio-info">
 
                 </div><!-- /.portfolio-info -->
               </div><!-- /.portfolio -->
             </div><!-- /.portfolio-bg -->
+            </a>
 
           </div><!-- /.portfolio-item -->
 
 
           <div class="portfolio-item wow fadeInUp col-xs-12 col-sm-4">
-
+            <a href="#none" id="popup03">
             <div class="portfolio-bg">
               <div class="portfolio">
-                <img src="assets/images/sns_03.png" alt="image">
+                <div class="tt-overlay"></div>
+                <img src="assets/images/sns_03.jpg" alt="image">
                 <div class="portfolio-info">
-                  <h3>Artwork Title</h3>
                 </div><!-- /.portfolio-info -->
               </div><!-- /.portfolio -->
             </div><!-- /.portfolio-bg -->
+            </a>
 
           </div><!-- /.portfolio-item -->
         </div><!-- /#grid -->
@@ -194,6 +206,31 @@
     </div><!-- /.container -->
   </section>
   <!-- End Artwork Section -->
+
+<!-- Popup Section -->
+  <div class="popup" id="pop01">
+    <div class="popup_in">
+      <i class="fa fa-times"></i>
+      <img src="./assets/images/sns_01.jpg" alt="sns 이미지1">
+      <!-- <img src="./assets/images/sns_banner2.jpg" alt="sns 이미지2"> -->
+    </div>
+  </div>
+
+  <div class="popup" id="pop02">
+    <div class="popup_in">
+      <i class="fa fa-times"></i>
+      <img src="./assets/images/sns_02.jpg" alt="sns 이미지1">
+      <!-- <img src="./assets/images/sns_banner2.jpg" alt="sns 이미지2"> -->
+    </div>
+  </div>
+
+  <div class="popup" id="pop03">
+    <div class="popup_in">
+      <i class="fa fa-times"></i>
+      <img src="./assets/images/sns_03.jpg" alt="sns 이미지1">
+      <!-- <img src="./assets/images/sns_banner2.jpg" alt="sns 이미지2"> -->
+    </div>
+  </div><!-- End Popup Section -->
 
   <!-- Experience Section -->
   <section id="Experience" class="Experience-section section-padding">
@@ -415,6 +452,7 @@
     </div><!-- /.container -->
   </section><!-- End Skills Section -->
 
+  <!-- Contact Section -->
   <section id="contact" class="contact-section section-padding">
     <div class="container">
       <h2 class="section-title wow fadeInUp">contact</h2>
@@ -431,7 +469,7 @@
         </li>
       </ul>
     </div>
-  </section>
+  </section>  <!-- End Contact Section -->
 
 
   <!-- Scroll-up -->
